@@ -12,4 +12,15 @@
     margin-bottom: 2rem;
   }
 }
+
+@media (max-width: 992px) {
+  .navbar-nav ul {
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+  .navbar-nav ul button {
+    width: -webkit-fill-available;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */

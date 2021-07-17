@@ -159,3 +159,55 @@ section.staff-section {
  
   }
 }
+#tab-section{
+  .tab-content{ 
+    .tab-pane{
+      .tabs-contact-us{
+
+        &.heading{
+          text-align: center;
+          background: #7d7d7d;
+          padding: 8rem;
+          color:var(--bg-color)
+  
+
+        }
+        &.form{
+          form{
+            margin-top:4rem
+          }
+          margin-top:3rem;
+          margin-bottom:3rem;
+          input.form-control {
+            border-radius: 0px;
+            padding:1rem;
+            &:focus{
+              box-shadow: none;
+              border-bottom: 1px solid #ff6464;
+            }
+
+          }
+          textarea.form-control {
+            border-radius: 0px;
+            padding: 1rem;
+            &:focus{
+              box-shadow: none;
+              border-bottom: 1px solid #ff6464;
+            }
+
+          }
+        }
+        &.map{
+          iframe {
+            width: -webkit-fill-available;
+        }
+        }
+      }
+      
+    }
+   
+
+  }
+ 
+
+}

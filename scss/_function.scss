@@ -1,0 +1,17 @@
+
+@mixin box-shadow($color) {
+   box-shadow: 4px 5px 40px -2px $color;
+    
+}
+   
+@mixin gradient-generator($color1,$color2,$text-color) {
+   
+      background: radial-gradient(circle, $color1 0%, $color2 100%);
+      color:$text-color;
+   
+  
+    
+}
+   
+ 
+ 

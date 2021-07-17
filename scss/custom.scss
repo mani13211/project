@@ -1,0 +1,39 @@
+// Required
+@import "../bootstrap/scss/functions";
+
+$primary: #ff6464;
+$secondary: #01024e;
+$info: grey;
+
+$card-bg: var(--bg-color);
+
+
+// Required
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+
+// Optional Bootstrap components here
+@import "../bootstrap/scss/root";
+@import "../bootstrap/scss/reboot";
+@import "../bootstrap/scss/type";
+$box-shadow: 0 0.5rem 1rem rgba(var(--card-shadow), 0.15);
+$box-shadow-sm: 0 0.125rem 0.25rem rgba(var(--card-shadow), 0.075);
+$box-shadow-lg: 0 1rem 3rem rgba(var(--card-shadow), 0.175);
+$box-shadow-inset: inset 0 1px 2px rgba(var(--card-shadow), 0.075);
+$card-border-color: rgba(var(--card-shadow), 0.125);
+$carousel-control-color:             grey;
+@import "./variables";
+$nav-tabs-link-active-bg: var(--code-bg);
+$nav-tabs-border-color: var(--code-border);
+$nav-tabs-link-active-color: var(--text-color);
+$nav-tabs-border-color: var(--code-border);
+@import "./function";
+// etc
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../bootstrap/scss/bootstrap";
+
+// Then add additional custom code here

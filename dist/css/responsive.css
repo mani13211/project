@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  section.staff-section .container {
+    padding: 2rem 0rem;
+  }
+  section.staff-section button {
+    margin-top: 10rem;
+  }
+  section.contact-section .row div {
+    margin-bottom: 1rem;
+  }
+  section#footer-section .row div {
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
